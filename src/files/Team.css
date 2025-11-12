@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .team-section {
+    padding: 50px;
+    text-align: center;
+    background: #f8f8f8;
+  }
+  
+  .team-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover img {
+    transform: scale(1.05);
+  }
+  
+  .member-info {
+    padding: 20px;
+  }
+  
+  .member-info h3 {
+    font-size: 1.8em;
+    color: orange;
+    margin-bottom: 5px;
+  }
+  
+  .role {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .member-info p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 768px) {
+    .team-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  

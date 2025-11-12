@@ -1,0 +1,90 @@
+/* General Styles */
+
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Header and Description */
+  h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h1 span {
+    color: #ff9800; /* Highlighted color */
+  }
+  
+  .description {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #ff9800;
+    outline: none;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 15px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e68900;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (min-width: 768px) {
+    .container {
+      padding: 50px;
+    }
+  
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    .btn {
+      font-size: 1.2em;
+    }
+  }
+  

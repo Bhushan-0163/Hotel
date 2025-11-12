@@ -1,0 +1,119 @@
+.login{
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  /* src/components/Login.css */
+  .login-container {
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container input {
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .login-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .login-container button {
+    padding: 12px;
+    background-color: rgb(255, 196, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .login-container button:hover {
+    background-color:orange;
+    transform: scale(1.05);
+  }
+  
+  .forgot-password {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .create-account {
+    margin-top: 20px;
+  }
+  
+  .create-account-btn,
+  .google-signup-btn {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  
+  .back-to-login {
+    margin-top: 20px;
+  }
+  
+  .back-to-login a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .back-to-login a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+ 
+  
+  

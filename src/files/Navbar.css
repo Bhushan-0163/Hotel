@@ -1,0 +1,80 @@
+.navbar {
+    background-color: rgb(255, 196, 0);; /* Dark background for navbar */
+    padding: 0.8rem 1rem; /* Padding for top and bottom */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  
+  }
+  
+  .navbar-brand {
+    color: #f8f9fa; /* Light color for brand name */
+    font-size: 1.8rem; /* Larger font size for brand */
+    font-weight: bold; /* Bold for emphasis */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-brand:hover {
+    color: black; /* Change color on hover */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove border */
+    background-color: #3498db; /* Background color for toggle button */
+    padding: 5px 10px; /* Padding for toggle button */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f9fa' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M1.5 12.5a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13z'/%3e%3c/svg%3e"); /* Custom icon color */
+  }
+  
+  /* Navbar Links */
+  .nav-link {
+    color:white; /* Light color for links */
+    padding: 0.5rem 1rem; /* Spacing around links */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+    font-size: 1.1rem; /* Slightly larger font size */
+  }
+  
+  .nav-link:hover {
+    color: black; /* Change color on hover */
+  }
+  
+  .nav-link.active {
+    color: #3498db; /* Different color for active link */
+    font-weight: bold; /* Bold active link */
+  }
+  
+  
+  
+  /* Additional styling */
+  .navbar-nav {
+    margin-left: auto; /* Align navbar items to the right */
+  }
+  
+  .nav-item {
+    margin-left: 10px; /* Spacing between nav items */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* Remove right margin for the last item */
+  }
+  #n1
+{
+  color:white;
+}
+#n1:hover{
+  color:black;
+}
+#l1{
+background-color: orange;
+color:white;
+border: 3px solid orange;
+border-radius: 10px;
+}
+#I1{
+  width:70px;
+  border: 2px solid black;
+}
+#n2{
+  margin-left: 5px;
+  color:black;
+}

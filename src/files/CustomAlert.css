@@ -1,0 +1,99 @@
+/* General styling for the alert overlay */
+.alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it's on top */
+    padding: 20px; /* Ensure space on smaller screens */
+  }
+  
+  /* Styling for the alert box */
+  .alert-box {
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90vw; /* Adjust width based on viewport */
+    width: 100%; /* Full width on smaller devices */
+    max-height: 80vh; /* Prevent overflow on smaller screens */
+    text-align: center;
+    animation: slideIn 0.3s ease-out; /* Optional animation */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+  }
+  
+  /* Styling for text inside the alert */
+  .alert-box p {
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Styling for the alert button */
+  .alert-btn {
+    padding: 1em 2em;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .alert-btn:hover {
+    background-color: #e68900;
+  }
+  
+  /* Optional animation for sliding in the alert */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Tablet and medium screens */
+  @media (min-width: 768px) {
+    .alert-box {
+      max-width: 70vw;
+      padding: 2.5em;
+    }
+  
+    .alert-box p {
+      font-size: 1.4em;
+    }
+  
+    .alert-btn {
+      font-size: 1.1em;
+    }
+  }
+  
+  /* Large screens (desktops, etc.) */
+  @media (min-width: 1024px) {
+    .alert-box {
+      max-width: 40vw;
+    }
+  
+    .alert-box p {
+      font-size: 1.6em;
+    }
+  
+    .alert-btn {
+      font-size: 1.2em;
+      padding: 1.2em 3em;
+    }
+  }
+  

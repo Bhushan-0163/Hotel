@@ -1,0 +1,73 @@
+/* General styling for the home container with a responsive background image */
+/* General styling for the home container with a responsive background image */
+.home-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url('C:\Users\BHUSHAN KAMADI\AppData\Roaming\npm\reactjs\wtproject\Hotel\public\res.png'); /* Replace with the path to your image */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px; /* Add margin to separate from the edge */
+  }
+  
+  .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff; /* White text color for better contrast */
+  }
+  
+  #hh1 {
+    font-size: 2em;
+    margin: 20px 0;
+    line-height: 1.5;
+    color: #fff; /* White text color for better contrast */
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .home-container {
+      justify-content: flex-end;
+    }
+  
+    #hh1 {
+      font-size: 3em;
+    }
+  
+    .button-group {
+      flex-direction: row;
+    }
+  
+    .btn {
+      font-size: 1.5em;
+      padding: 15px 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    #hh1 {
+      font-size: 4em;
+    }
+  
+    .btn {
+      font-size: 1.7em;
+      padding: 20px 40px;
+    }
+  }
+  

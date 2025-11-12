@@ -1,0 +1,163 @@
+.about-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about-heading::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: rgb(255, 196, 0);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  flex: 2;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.about-content h2 {
+  color:rgb(255, 196, 0);
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about-mission {
+  background-color: rgb(255, 196, 0);
+  padding: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.about-mission h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.about-mission p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+#s1{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#s1 img{
+  width: 100px;
+}
+#a1{
+  margin-top: 20px;
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .about-container {
+    padding: 30px 15px;
+  }
+  .about-heading {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-heading {
+    font-size: 1.8em;
+  }
+
+  .about-content h2 {
+    font-size: 1.6em;
+  }
+
+  .about-content p {
+    font-size: 1.1em;
+  }
+
+  .about-mission h3 {
+    font-size: 1.5em;
+  }
+
+  .about-mission p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-heading {
+    font-size: 1.5em;
+  }
+
+  .about-content h2 {
+    font-size: 1.4em;
+  }
+
+  .about-content p {
+    font-size: 1em;
+  }
+
+  .about-mission h3 {
+    font-size: 1.2em;
+  }
+
+  .about-mission p {
+    font-size: 0.9em;
+  }
+}
