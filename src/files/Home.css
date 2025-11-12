@@ -7,7 +7,7 @@
   text-align: center;
   padding: 20px;
   min-height: 100vh;
-  background-image: url('C:\Users\BHUSHAN KAMADI\AppData\Roaming\npm\reactjs\wtproject\Hotel\public\res.png'); /* Replace with the path to your image */
+  background-image: url('res.png'); /* Replace with the path to your image */
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
